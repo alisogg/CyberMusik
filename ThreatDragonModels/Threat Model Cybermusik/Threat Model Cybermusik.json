@@ -1,0 +1,20 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "Threat Model Cybermusik",
+    "owner": "Emiliano Arroyo",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Alan Macias"
+      }
+    ],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
