@@ -103,7 +103,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Data Access"
+                "text": "Data\nAccess"
               },
               "body": {
                 "stroke": "#333333",
@@ -117,7 +117,7 @@
             "zIndex": 3,
             "data": {
               "type": "tm.Process",
-              "name": "Data Access",
+              "name": "Data\nAccess",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
