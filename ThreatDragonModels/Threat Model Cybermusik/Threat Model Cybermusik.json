@@ -23,6 +23,26 @@
         "cells": [
           {
             "position": {
+              "x": 605.25,
+              "y": -196.9999999999997
+            },
+            "size": {
+              "width": 310,
+              "height": 260
+            },
+            "shape": "trust-boundary-box",
+            "id": "5a802e97-b7ce-4d46-80a2-e6539c885d6f",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 140,
               "y": 230
             },
@@ -401,6 +421,53 @@
             }
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "c3a04f8e-291d-480d-b27f-aa5839f8e0e1",
+            "source": {
+              "x": 1170,
+              "y": -220
+            },
+            "target": {
+              "x": 1220,
+              "y": 540
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "3c7f074a-5835-4158-9d2f-671e16837b86",
+            "source": {
+              "x": 290,
+              "y": -210
+            },
+            "target": {
+              "x": 310,
+              "y": 540
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 1370,
               "y": 23
@@ -728,6 +795,121 @@
             "data": {
               "type": "tm.Process",
               "name": "Comments\nController",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 703.25,
+              "y": -87
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Images"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "ab9e97b6-9b88-4c38-8978-9dcfe43838a5",
+            "zIndex": 20,
+            "data": {
+              "type": "tm.Store",
+              "name": "Images",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 733.25,
+              "y": -7
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Data\nAccess"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "9122f69a-2fc4-49d3-a467-87d70e7b8248",
+            "zIndex": 21,
+            "data": {
+              "type": "tm.Process",
+              "name": "Data\nAccess",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 733.25,
+              "y": 70
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "File\nUpload"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "64f6017d-78dd-4d58-ba29-cb5f2b1ddb8c",
+            "zIndex": 22,
+            "data": {
+              "type": "tm.Process",
+              "name": "File\nUpload",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
