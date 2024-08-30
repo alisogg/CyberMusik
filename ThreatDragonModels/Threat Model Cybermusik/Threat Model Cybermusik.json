@@ -94,8 +94,8 @@
           },
           {
             "position": {
-              "x": 910,
-              "y": 192
+              "x": 1230,
+              "y": 210
             },
             "size": {
               "width": 60,
@@ -168,8 +168,8 @@
           },
           {
             "position": {
-              "x": 1050,
-              "y": 270
+              "x": 1370,
+              "y": 260
             },
             "size": {
               "width": 120,
@@ -209,8 +209,8 @@
           },
           {
             "position": {
-              "x": 1050,
-              "y": 192
+              "x": 1370,
+              "y": 182
             },
             "size": {
               "width": 120,
@@ -250,8 +250,8 @@
           },
           {
             "position": {
-              "x": 1050,
-              "y": 110
+              "x": 1370,
+              "y": 100
             },
             "size": {
               "width": 120,
@@ -291,8 +291,8 @@
           },
           {
             "position": {
-              "x": 762,
-              "y": 270
+              "x": 1082,
+              "y": 260
             },
             "size": {
               "width": 60,
@@ -328,8 +328,8 @@
           },
           {
             "position": {
-              "x": 762,
-              "y": 192
+              "x": 1082,
+              "y": 182
             },
             "size": {
               "width": 60,
@@ -365,8 +365,8 @@
           },
           {
             "position": {
-              "x": 762,
-              "y": 110
+              "x": 1082,
+              "y": 100
             },
             "size": {
               "width": 60,
@@ -402,8 +402,8 @@
           },
           {
             "position": {
-              "x": 1050,
-              "y": 33
+              "x": 1370,
+              "y": 23
             },
             "size": {
               "width": 120,
@@ -443,8 +443,8 @@
           },
           {
             "position": {
-              "x": 1050,
-              "y": 358
+              "x": 1370,
+              "y": 348
             },
             "size": {
               "width": 120,
@@ -479,6 +479,263 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 581,
+              "y": 230
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Check\nRoles"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "d0b8b458-6df8-41eb-b8eb-0b44eda015af",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Process",
+              "name": "Check\nRoles",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 707,
+              "y": 170
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "User"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "1036f7cd-bd59-49e9-b100-ea5757688513",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Actor",
+              "name": "User",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 707,
+              "y": 270
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Artist"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "66060acc-6424-4014-ba84-bcdef2febade",
+            "zIndex": 15,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Artist",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1370,
+              "y": 445
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Music"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "b43636c9-dde4-4df0-899b-3bc6f5bc25b2",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Store",
+              "name": "Music",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1082,
+              "y": 348
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Artist\nController"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "03814bf2-d804-4b35-9bd9-0cc082fcbbe0",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Process",
+              "name": "Artist\nController",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1082,
+              "y": 445
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Music\nController"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "df9d1fc3-8850-4609-b61e-df9ee058ab19",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Process",
+              "name": "Music\nController",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1082,
+              "y": 23
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Comments\nController"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "b25584ba-f77b-4f55-9b95-ee81567b7b48",
+            "zIndex": 19,
+            "data": {
+              "type": "tm.Process",
+              "name": "Comments\nController",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
               "threats": []
             }
           }
