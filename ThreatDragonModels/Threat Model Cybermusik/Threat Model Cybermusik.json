@@ -157,8 +157,8 @@
                 "text": "Data\nAccess"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -172,12 +172,34 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "8af16719-44ff-4dcc-b019-0bf092a36451",
+                  "title": "Mal uso de los metodos en los controllers",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Posible explotacion de las funciones y metodos de las funciones \"controller\" con el objetivo de interactuar con la DB",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -2292,12 +2314,132 @@
               "name": "DB",
               "hasOpenThreats": false
             }
+          },
+          {
+            "position": {
+              "x": 235,
+              "y": 645
+            },
+            "size": {
+              "width": 170,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "ASSETS\n\nA01: Credenciales de usuario\n"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "58182c80-7dee-4372-bcb3-4597d6044182",
+            "zIndex": 28,
+            "data": {
+              "type": "tm.Text",
+              "name": "ASSETS\n\nA01: Credenciales de usuario\n",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1629,
+              "y": 270
+            },
+            "size": {
+              "width": 50,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "A01"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "bcb17e68-9afe-4d3e-ba2b-b541731ef08d",
+            "zIndex": 29,
+            "data": {
+              "type": "tm.Text",
+              "name": "A01",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 460,
+              "y": 640
+            },
+            "size": {
+              "width": 240,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "THREAT ACTORS\n\nT01: Usuario malicioso\nT02: Man-in-the-middle"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "07f3b769-e08e-493b-b23a-8bd79310bce9",
+            "zIndex": 30,
+            "data": {
+              "type": "tm.Text",
+              "name": "THREAT ACTORS\n\nT01: Usuario malicioso\nT02: Man-in-the-middle",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 121,
+              "y": 187
+            },
+            "size": {
+              "width": 50,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "T01"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "93831337-7fa4-4af3-b645-a8a21cf578f5",
+            "data": {
+              "type": "tm.Text",
+              "name": "T01",
+              "hasOpenThreats": false
+            },
+            "zIndex": 31
+          },
+          {
+            "position": {
+              "x": 262.5,
+              "y": 275
+            },
+            "size": {
+              "width": 50,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "T02"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "7e40d4da-edc1-447f-a478-deb8649e8df6",
+            "data": {
+              "type": "tm.Text",
+              "name": "T02",
+              "hasOpenThreats": false
+            },
+            "zIndex": 32
           }
         ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 6
+    "threatTop": 7
   }
 }
