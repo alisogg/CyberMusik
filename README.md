@@ -1,7 +1,7 @@
 
 # CyberMusik 🧡
 <p align="center">
-  <img src="https://github.com/alisogg/CyberMusik/blob/main/logomovible.gif">
+  <img src="https://github.com/alisogg/CyberMusik/blob/main/Entregas/logomovible.gif">
 </p>
 
 CyberMusik es una red social creada para conectar a cualquier persona con un gusto musical, se incluye un login ya seas artista o solo quieras ver la red social, así como foros, diversos artistas que incluso podrías agregar, entre más cosas. 
@@ -28,9 +28,9 @@ CyberMusik es una red social creada para conectar a cualquier persona con un gus
 
 ## Capturas de Pantalla
 
-![](https://github.com/alisogg/CyberMusik/blob/main/Imagen1.png)
-![](https://github.com/alisogg/CyberMusik/blob/main/Imagen2.png)
-![](https://github.com/alisogg/CyberMusik/blob/main/Imagen3.png)
-![](https://github.com/alisogg/CyberMusik/blob/main/Imagen4.png)
+![](https://github.com/alisogg/CyberMusik/blob/main/Entregas/Imagen1.png)
+![](https://github.com/alisogg/CyberMusik/blob/main/Entregas/Imagen2.png)
+![](https://github.com/alisogg/CyberMusik/blob/main/Entregas/Imagen3.png)
+![](https://github.com/alisogg/CyberMusik/blob/main/Entregas/Imagen4.png)
 
 
